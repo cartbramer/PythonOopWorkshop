@@ -1,9 +1,9 @@
 number_input_reader:
     # Empty args for class StdInNumberInputReader
-    class: StdInNumberInputReader
-    args: []
+#     class: StdInNumberInputReader
+#     args: []
 
     # List with one config location for class TextFileNumberInputReader
-#     class: TextFileNumberInputReader
-#     args:
-#      - input.txt
+    class: TextFileNumberInputReader
+    args:
+     - input.txt
